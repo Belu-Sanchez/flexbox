@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.flex-container {
+  width: 1300px;
+  height: 700px;
+  margin: 2.5em;
+  /* border: solid; */
+  /* background-color: rgb(199, 201, 201); */
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.flex-container div {
+  width: 600px;
+  height: 300px;
+  background-color: rgb(247, 242, 248);
+  /* border: solid; */
+}
+h1 {
+  font-size: 50px;
+  color: rgb(75, 39, 109);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  letter-spacing: 1px;
+}
+.pieDeTitulo {
+  font-size: 20px;
+  color: rgb(75, 39, 109);
+  line-height: 25px;
+  padding: 20px 0px 0px 0px;
+}
+.puntaje{
+display: flex;
+display: block;
+}
+.fa-star {
+  color: rgb(229, 149, 78);
+}
+.estrella,
+.estrella2,
+.estrella3 {
+  width: 420px;
+  padding: 15px;
+  background-color: rgb(247, 242, 248);
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+}
+.estrella2 {
+  margin: 20px 0px 0px 100px;
+}
+.estrella3 {
+  margin: 20px 0px 0px 220px;
+}
+.cajaDeComentarios {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cajaDeComentarios section {
+  background-color: rgb(95, 41, 95);
+  width: 400px;
+  height: 250px;
+  border-radius: 10px;
+ 
+}
+.cajaDeComentarios img {
+  border-radius: 70px;
+  height: 50px;
+  display: block;
+  margin: 50px 0px 0px 50px;
+}
+section {
+  display: flex;
+  display: block;
+  
+}
+h6 {
+  font-size: 20px;
+  color: rgb(220, 191, 219);
+
+}
+.verificacion {
+  color: blueviolet;
+  font-size: 20px;
+}
+.comentario123 {
+  color: white;
+  text-align: left;
+  font-size: 13px;
+  margin-left: 30px;
+}
+.comment{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.comment div{
+width: 300px;
+height: 100px;
+background-color: rgba(235, 241, 241, 0.007);
+display: flex;
+align-items: center;
+}
+
+.name{
+padding: 45px;
+display: flex;
+flex-wrap: wrap;
+
+}
+
+.verification{
+  color:rgb(133, 78, 133);
+  font-size: 20px;
+}
+
+.user-comment{
+ color:white;
+ font-size: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.model {
+  font-size: 70px;
+  color: rgb(133, 78, 133);
+  margin-left: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-shadow: 8px 5px 5px rgb(66, 44, 66);
+}
